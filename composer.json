@@ -1,0 +1,24 @@
+{
+  "name": "bond211/php-emoji",
+  "description": "PHP Emoji",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Bondar",
+      "email": "alexander@bondar.de"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bond211\\Emoji\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
