@@ -1,6 +1,6 @@
 <?php
 
-namespace Bond211\Emoji;
+namespace BondarDe\Emoji;
 
 /*
  * Updated at 2019-11-29 16:23 UTC

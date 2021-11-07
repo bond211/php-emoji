@@ -1,5 +1,5 @@
 {
-  "name": "bond211/php-emoji",
+  "name": "bondarde/php-emoji",
   "description": "PHP Emoji",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Bond211\\Emoji\\": "src/"
+      "BondarDe\\Emoji\\": "src/"
     }
   },
   "autoload-dev": {
