@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Warning
 {
+    use HasStaticGetters;
+
     const WARNING = '⚠️';
     const CHILDREN_CROSSING = '🚸';
     const NO_ENTRY = '⛔';

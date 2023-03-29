@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PersonFantasy
 {
+    use HasStaticGetters;
+
     const BABY_ANGEL = '👼';
     const BABY_ANGEL_LIGHT_SKIN_TONE = '👼🏻';
     const BABY_ANGEL_MEDIUM_LIGHT_SKIN_TONE = '👼🏼';

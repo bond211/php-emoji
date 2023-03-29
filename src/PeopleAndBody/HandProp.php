@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class HandProp
 {
+    use HasStaticGetters;
+
     const WRITING_HAND = '✍️';
     const WRITING_HAND_LIGHT_SKIN_TONE = '✍🏻';
     const WRITING_HAND_MEDIUM_LIGHT_SKIN_TONE = '✍🏼';

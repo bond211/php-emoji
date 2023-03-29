@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Money
 {
+    use HasStaticGetters;
+
     const MONEY_BAG = '💰';
     const COIN = '🪙';
     const YEN_BANKNOTE = '💴';

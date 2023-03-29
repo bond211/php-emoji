@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlantOther
 {
+    use HasStaticGetters;
+
     const SEEDLING = '🌱';
     const POTTED_PLANT = '🪴';
     const EVERGREEN_TREE = '🌲';

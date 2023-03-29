@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FaceConcerned
 {
+    use HasStaticGetters;
+
     const CONFUSED_FACE = '😕';
     const FACE_WITH_DIAGONAL_MOUTH = '🫤';
     const WORRIED_FACE = '😟';

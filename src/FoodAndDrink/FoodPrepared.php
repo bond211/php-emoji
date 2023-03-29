@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\FoodAndDrink;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FoodPrepared
 {
+    use HasStaticGetters;
+
     const BREAD = '🍞';
     const CROISSANT = '🥐';
     const BAGUETTE_BREAD = '🥖';

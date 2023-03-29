@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Person
 {
+    use HasStaticGetters;
+
     const BABY = '👶';
     const BABY_LIGHT_SKIN_TONE = '👶🏻';
     const BABY_MEDIUM_LIGHT_SKIN_TONE = '👶🏼';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class TransportSign
 {
+    use HasStaticGetters;
+
     const ATM_SIGN = '🏧';
     const LITTER_IN_BIN_SIGN = '🚮';
     const POTABLE_WATER = '🚰';

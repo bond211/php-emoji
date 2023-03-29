@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class BookPaper
 {
+    use HasStaticGetters;
+
     const NOTEBOOK_WITH_DECORATIVE_COVER = '📔';
     const CLOSED_BOOK = '📕';
     const OPEN_BOOK = '📖';

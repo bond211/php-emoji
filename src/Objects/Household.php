@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Household
 {
+    use HasStaticGetters;
+
     const DOOR = '🚪';
     const ELEVATOR = '🛗';
     const MIRROR = '🪞';

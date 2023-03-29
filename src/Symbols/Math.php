@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Math
 {
+    use HasStaticGetters;
+
     const MULTIPLY = '✖️';
     const PLUS = '➕';
     const MINUS = '➖';

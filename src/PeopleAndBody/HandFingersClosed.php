@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class HandFingersClosed
 {
+    use HasStaticGetters;
+
     const THUMBS_UP = '👍';
     const THUMBS_UP_LIGHT_SKIN_TONE = '👍🏻';
     const THUMBS_UP_MEDIUM_LIGHT_SKIN_TONE = '👍🏼';

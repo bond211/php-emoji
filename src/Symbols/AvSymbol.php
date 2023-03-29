@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AvSymbol
 {
+    use HasStaticGetters;
+
     const SHUFFLE_TRACKS_BUTTON = '🔀';
     const REPEAT_BUTTON = '🔁';
     const REPEAT_SINGLE_BUTTON = '🔂';

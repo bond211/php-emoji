@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Religion
 {
+    use HasStaticGetters;
+
     const PLACE_OF_WORSHIP = '🛐';
     const ATOM_SYMBOL = '⚛️';
     const OM = '🕉️';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class TransportWater
 {
+    use HasStaticGetters;
+
     const ANCHOR = '⚓';
     const RING_BUOY = '🛟';
     const SAILBOAT = '⛵';

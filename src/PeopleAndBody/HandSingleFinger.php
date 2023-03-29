@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class HandSingleFinger
 {
+    use HasStaticGetters;
+
     const BACKHAND_INDEX_POINTING_LEFT = '👈';
     const BACKHAND_INDEX_POINTING_LEFT_LIGHT_SKIN_TONE = '👈🏻';
     const BACKHAND_INDEX_POINTING_LEFT_MEDIUM_LIGHT_SKIN_TONE = '👈🏼';

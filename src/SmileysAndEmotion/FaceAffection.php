@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FaceAffection
 {
+    use HasStaticGetters;
+
     const SMILING_FACE_WITH_HEARTS = '🥰';
     const SMILING_FACE_WITH_HEART_EYES = '😍';
     const STAR_STRUCK = '🤩';

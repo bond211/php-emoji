@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlaceMap
 {
+    use HasStaticGetters;
+
     const GLOBE_SHOWING_EUROPE_AFRICA = '🌍';
     const GLOBE_SHOWING_AMERICAS = '🌎';
     const GLOBE_SHOWING_ASIA_AUSTRALIA = '🌏';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PersonSport
 {
+    use HasStaticGetters;
+
     const PERSON_FENCING = '🤺';
     const HORSE_RACING = '🏇';
     const HORSE_RACING_LIGHT_SKIN_TONE = '🏇🏻';

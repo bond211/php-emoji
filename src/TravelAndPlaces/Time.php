@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Time
 {
+    use HasStaticGetters;
+
     const HOURGLASS_DONE = '⌛';
     const HOURGLASS_NOT_DONE = '⏳';
     const WATCH = '⌚';

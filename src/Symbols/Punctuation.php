@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Punctuation
 {
+    use HasStaticGetters;
+
     const DOUBLE_EXCLAMATION_MARK = '‼️';
     const EXCLAMATION_QUESTION_MARK = '⁉️';
     const RED_QUESTION_MARK = '❓';

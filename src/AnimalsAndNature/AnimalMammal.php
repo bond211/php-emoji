@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AnimalMammal
 {
+    use HasStaticGetters;
+
     const MONKEY_FACE = '🐵';
     const MONKEY = '🐒';
     const GORILLA = '🦍';

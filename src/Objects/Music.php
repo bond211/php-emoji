@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Music
 {
+    use HasStaticGetters;
+
     const MUSICAL_SCORE = '🎼';
     const MUSICAL_NOTE = '🎵';
     const MUSICAL_NOTES = '🎶';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlantFlower
 {
+    use HasStaticGetters;
+
     const BOUQUET = '💐';
     const CHERRY_BLOSSOM = '🌸';
     const WHITE_FLOWER = '💮';

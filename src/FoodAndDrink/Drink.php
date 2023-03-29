@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\FoodAndDrink;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Drink
 {
+    use HasStaticGetters;
+
     const BABY_BOTTLE = '🍼';
     const GLASS_OF_MILK = '🥛';
     const HOT_BEVERAGE = '☕';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class OtherSymbol
 {
+    use HasStaticGetters;
+
     const MEDICAL_SYMBOL = '⚕️';
     const RECYCLING_SYMBOL = '♻️';
     const FLEUR_DE_LIS = '⚜️';

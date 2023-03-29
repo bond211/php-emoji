@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FaceSmiling
 {
+    use HasStaticGetters;
+
     const GRINNING_FACE = '😀';
     const GRINNING_FACE_WITH_BIG_EYES = '😃';
     const GRINNING_FACE_WITH_SMILING_EYES = '😄';

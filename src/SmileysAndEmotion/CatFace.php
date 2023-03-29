@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class CatFace
 {
+    use HasStaticGetters;
+
     const GRINNING_CAT = '😺';
     const GRINNING_CAT_WITH_SMILING_EYES = '😸';
     const CAT_WITH_TEARS_OF_JOY = '😹';

@@ -4,6 +4,8 @@ namespace BondarDe\Emoji;
 
 class Emoji
 {
+    use HasStaticGetters;
+
     const GRINNING_FACE = '😀';
     const GRINNING_FACE_WITH_BIG_EYES = '😃';
     const GRINNING_FACE_WITH_SMILING_EYES = '😄';

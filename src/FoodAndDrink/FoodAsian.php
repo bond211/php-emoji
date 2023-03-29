@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\FoodAndDrink;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FoodAsian
 {
+    use HasStaticGetters;
+
     const BENTO_BOX = '🍱';
     const RICE_CRACKER = '🍘';
     const RICE_BALL = '🍙';

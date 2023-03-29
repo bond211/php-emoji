@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Activities;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AwardMedal
 {
+    use HasStaticGetters;
+
     const MILITARY_MEDAL = '🎖️';
     const TROPHY = '🏆';
     const SPORTS_MEDAL = '🏅';

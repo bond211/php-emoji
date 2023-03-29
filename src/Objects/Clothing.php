@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Clothing
 {
+    use HasStaticGetters;
+
     const GLASSES = '👓';
     const SUNGLASSES = '🕶️';
     const GOGGLES = '🥽';

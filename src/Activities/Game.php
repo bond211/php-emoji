@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Activities;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Game
 {
+    use HasStaticGetters;
+
     const BULLSEYE = '🎯';
     const YO_YO = '🪀';
     const KITE = '🪁';

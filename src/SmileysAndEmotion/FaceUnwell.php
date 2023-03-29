@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FaceUnwell
 {
+    use HasStaticGetters;
+
     const FACE_WITH_MEDICAL_MASK = '😷';
     const FACE_WITH_THERMOMETER = '🤒';
     const FACE_WITH_HEAD_BANDAGE = '🤕';

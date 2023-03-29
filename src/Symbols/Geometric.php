@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Geometric
 {
+    use HasStaticGetters;
+
     const RED_CIRCLE = '🔴';
     const ORANGE_CIRCLE = '🟠';
     const YELLOW_CIRCLE = '🟡';

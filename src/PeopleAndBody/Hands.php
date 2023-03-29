@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Hands
 {
+    use HasStaticGetters;
+
     const CLAPPING_HANDS = '👏';
     const CLAPPING_HANDS_LIGHT_SKIN_TONE = '👏🏻';
     const CLAPPING_HANDS_MEDIUM_LIGHT_SKIN_TONE = '👏🏼';

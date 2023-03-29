@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlaceBuilding
 {
+    use HasStaticGetters;
+
     const STADIUM = '🏟️';
     const CLASSICAL_BUILDING = '🏛️';
     const BUILDING_CONSTRUCTION = '🏗️';

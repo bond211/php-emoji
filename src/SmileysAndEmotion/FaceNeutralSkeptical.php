@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FaceNeutralSkeptical
 {
+    use HasStaticGetters;
+
     const ZIPPER_MOUTH_FACE = '🤐';
     const FACE_WITH_RAISED_EYEBROW = '🤨';
     const NEUTRAL_FACE = '😐';

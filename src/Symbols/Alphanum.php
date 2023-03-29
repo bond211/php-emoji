@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Alphanum
 {
+    use HasStaticGetters;
+
     const INPUT_LATIN_UPPERCASE = '🔠';
     const INPUT_LATIN_LOWERCASE = '🔡';
     const INPUT_NUMBERS = '🔢';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Mail
 {
+    use HasStaticGetters;
+
     const ENVELOPE = '✉️';
     const E_MAIL = '📧';
     const INCOMING_ENVELOPE = '📨';

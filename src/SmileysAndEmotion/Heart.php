@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Heart
 {
+    use HasStaticGetters;
+
     const LOVE_LETTER = '💌';
     const HEART_WITH_ARROW = '💘';
     const HEART_WITH_RIBBON = '💝';

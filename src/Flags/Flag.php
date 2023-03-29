@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Flags;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Flag
 {
+    use HasStaticGetters;
+
     const CHEQUERED_FLAG = '🏁';
     const TRIANGULAR_FLAG = '🚩';
     const CROSSED_FLAGS = '🎌';

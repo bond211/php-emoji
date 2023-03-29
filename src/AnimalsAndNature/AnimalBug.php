@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AnimalBug
 {
+    use HasStaticGetters;
+
     const SNAIL = '🐌';
     const BUTTERFLY = '🦋';
     const BUG = '🐛';

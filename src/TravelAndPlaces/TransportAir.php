@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class TransportAir
 {
+    use HasStaticGetters;
+
     const AIRPLANE = '✈️';
     const SMALL_AIRPLANE = '🛩️';
     const AIRPLANE_DEPARTURE = '🛫';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\SmileysAndEmotion;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Emotion
 {
+    use HasStaticGetters;
+
     const KISS_MARK = '💋';
     const HUNDRED_POINTS = '💯';
     const ANGER_SYMBOL = '💢';

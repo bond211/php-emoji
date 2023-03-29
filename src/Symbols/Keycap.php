@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Keycap
 {
+    use HasStaticGetters;
+
     const KEYCAP_HASH = '#️⃣';
     const KEYCAP_STAR = '*️⃣';
     const KEYCAP_0 = '0️⃣';

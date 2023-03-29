@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class HandFingersPartial
 {
+    use HasStaticGetters;
+
     const OK_HAND = '👌';
     const OK_HAND_LIGHT_SKIN_TONE = '👌🏻';
     const OK_HAND_MEDIUM_LIGHT_SKIN_TONE = '👌🏼';

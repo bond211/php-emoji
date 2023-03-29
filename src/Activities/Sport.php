@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Activities;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Sport
 {
+    use HasStaticGetters;
+
     const SOCCER_BALL = '⚽';
     const BASEBALL = '⚾';
     const SOFTBALL = '🥎';

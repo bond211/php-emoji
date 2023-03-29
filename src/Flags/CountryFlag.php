@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Flags;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class CountryFlag
 {
+    use HasStaticGetters;
+
     const FLAG_ASCENSION_ISLAND = '🇦🇨';
     const FLAG_ANDORRA = '🇦🇩';
     const FLAG_UNITED_ARAB_EMIRATES = '🇦🇪';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Family
 {
+    use HasStaticGetters;
+
     const PEOPLE_HOLDING_HANDS = '🧑‍🤝‍🧑';
     const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE = '🧑🏻‍🤝‍🧑🏻';
     const PEOPLE_HOLDING_HANDS_LIGHT_SKIN_TONE_MEDIUM_LIGHT_SKIN_TONE = '🧑🏻‍🤝‍🧑🏼';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Sound
 {
+    use HasStaticGetters;
+
     const MUTED_SPEAKER = '🔇';
     const SPEAKER_LOW_VOLUME = '🔈';
     const SPEAKER_MEDIUM_VOLUME = '🔉';

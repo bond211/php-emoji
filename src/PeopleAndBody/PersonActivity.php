@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PersonActivity
 {
+    use HasStaticGetters;
+
     const PERSON_GETTING_MASSAGE = '💆';
     const PERSON_GETTING_MASSAGE_LIGHT_SKIN_TONE = '💆🏻';
     const PERSON_GETTING_MASSAGE_MEDIUM_LIGHT_SKIN_TONE = '💆🏼';

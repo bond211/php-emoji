@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Computer
 {
+    use HasStaticGetters;
+
     const BATTERY = '🔋';
     const LOW_BATTERY = '🪫';
     const ELECTRIC_PLUG = '🔌';

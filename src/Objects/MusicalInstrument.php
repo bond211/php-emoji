@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class MusicalInstrument
 {
+    use HasStaticGetters;
+
     const SAXOPHONE = '🎷';
     const ACCORDION = '🪗';
     const GUITAR = '🎸';

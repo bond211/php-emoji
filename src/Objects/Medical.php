@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Medical
 {
+    use HasStaticGetters;
+
     const SYRINGE = '💉';
     const DROP_OF_BLOOD = '🩸';
     const PILL = '💊';

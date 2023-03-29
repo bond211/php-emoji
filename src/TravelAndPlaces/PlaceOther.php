@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlaceOther
 {
+    use HasStaticGetters;
+
     const FOUNTAIN = '⛲';
     const TENT = '⛺';
     const FOGGY = '🌁';

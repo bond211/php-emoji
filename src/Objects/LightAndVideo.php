@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class LightAndVideo
 {
+    use HasStaticGetters;
+
     const MOVIE_CAMERA = '🎥';
     const FILM_FRAMES = '🎞️';
     const FILM_PROJECTOR = '📽️';

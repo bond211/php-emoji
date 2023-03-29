@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PersonRole
 {
+    use HasStaticGetters;
+
     const HEALTH_WORKER = '🧑‍⚕️';
     const HEALTH_WORKER_LIGHT_SKIN_TONE = '🧑🏻‍⚕️';
     const HEALTH_WORKER_MEDIUM_LIGHT_SKIN_TONE = '🧑🏼‍⚕️';

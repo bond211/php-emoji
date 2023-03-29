@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Zodiac
 {
+    use HasStaticGetters;
+
     const ARIES = '♈';
     const TAURUS = '♉';
     const GEMINI = '♊';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Office
 {
+    use HasStaticGetters;
+
     const BRIEFCASE = '💼';
     const FILE_FOLDER = '📁';
     const OPEN_FILE_FOLDER = '📂';

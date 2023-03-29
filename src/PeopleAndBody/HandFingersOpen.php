@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class HandFingersOpen
 {
+    use HasStaticGetters;
+
     const WAVING_HAND = '👋';
     const WAVING_HAND_LIGHT_SKIN_TONE = '👋🏻';
     const WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE = '👋🏼';

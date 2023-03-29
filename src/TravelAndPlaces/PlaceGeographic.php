@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PlaceGeographic
 {
+    use HasStaticGetters;
+
     const SNOW_CAPPED_MOUNTAIN = '🏔️';
     const MOUNTAIN = '⛰️';
     const VOLCANO = '🌋';

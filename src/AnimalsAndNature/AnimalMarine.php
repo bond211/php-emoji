@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AnimalMarine
 {
+    use HasStaticGetters;
+
     const SPOUTING_WHALE = '🐳';
     const WHALE = '🐋';
     const DOLPHIN = '🐬';

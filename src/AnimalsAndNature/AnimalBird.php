@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\AnimalsAndNature;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class AnimalBird
 {
+    use HasStaticGetters;
+
     const TURKEY = '🦃';
     const CHICKEN = '🐔';
     const ROOSTER = '🐓';

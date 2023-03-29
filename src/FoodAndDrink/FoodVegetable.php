@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\FoodAndDrink;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class FoodVegetable
 {
+    use HasStaticGetters;
+
     const AVOCADO = '🥑';
     const EGGPLANT = '🍆';
     const POTATO = '🥔';

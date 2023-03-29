@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class TransportGround
 {
+    use HasStaticGetters;
+
     const LOCOMOTIVE = '🚂';
     const RAILWAY_CAR = '🚃';
     const HIGH_SPEED_TRAIN = '🚄';

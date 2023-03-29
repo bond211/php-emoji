@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Activities;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Event
 {
+    use HasStaticGetters;
+
     const JACK_O_LANTERN = '🎃';
     const CHRISTMAS_TREE = '🎄';
     const FIREWORKS = '🎆';

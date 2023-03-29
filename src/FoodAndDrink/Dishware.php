@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\FoodAndDrink;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Dishware
 {
+    use HasStaticGetters;
+
     const CHOPSTICKS = '🥢';
     const FORK_AND_KNIFE_WITH_PLATE = '🍽️';
     const FORK_AND_KNIFE = '🍴';

@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Symbols;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Arrow
 {
+    use HasStaticGetters;
+
     const UP_ARROW = '⬆️';
     const UP_RIGHT_ARROW = '↗️';
     const RIGHT_ARROW = '➡️';

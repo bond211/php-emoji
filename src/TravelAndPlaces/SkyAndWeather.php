@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\TravelAndPlaces;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class SkyAndWeather
 {
+    use HasStaticGetters;
+
     const NEW_MOON = '🌑';
     const WAXING_CRESCENT_MOON = '🌒';
     const FIRST_QUARTER_MOON = '🌓';

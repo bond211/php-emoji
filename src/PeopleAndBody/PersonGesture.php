@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class PersonGesture
 {
+    use HasStaticGetters;
+
     const PERSON_FROWNING = '🙍';
     const PERSON_FROWNING_LIGHT_SKIN_TONE = '🙍🏻';
     const PERSON_FROWNING_MEDIUM_LIGHT_SKIN_TONE = '🙍🏼';

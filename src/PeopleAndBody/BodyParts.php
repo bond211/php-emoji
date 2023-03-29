@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\PeopleAndBody;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class BodyParts
 {
+    use HasStaticGetters;
+
     const FLEXED_BICEPS = '💪';
     const FLEXED_BICEPS_LIGHT_SKIN_TONE = '💪🏻';
     const FLEXED_BICEPS_MEDIUM_LIGHT_SKIN_TONE = '💪🏼';

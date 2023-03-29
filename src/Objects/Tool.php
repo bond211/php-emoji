@@ -2,8 +2,12 @@
 
 namespace BondarDe\Emoji\Objects;
 
+use BondarDe\Emoji\HasStaticGetters;
+
 class Tool
 {
+    use HasStaticGetters;
+
     const HAMMER = '🔨';
     const AXE = '🪓';
     const PICK = '⛏️';
