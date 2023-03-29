@@ -2,10 +2,6 @@
 
 namespace BondarDe\Emoji;
 
-/*
- * Updated at 2023-03-29 21:29 UTC
- */
-
 class Emoji
 {
     const GRINNING_FACE = '😀';

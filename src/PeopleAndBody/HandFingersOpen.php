@@ -1,0 +1,73 @@
+<?php
+
+namespace BondarDe\Emoji\PeopleAndBody;
+
+class HandFingersOpen
+{
+    const WAVING_HAND = '👋';
+    const WAVING_HAND_LIGHT_SKIN_TONE = '👋🏻';
+    const WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE = '👋🏼';
+    const WAVING_HAND_MEDIUM_SKIN_TONE = '👋🏽';
+    const WAVING_HAND_MEDIUM_DARK_SKIN_TONE = '👋🏾';
+    const WAVING_HAND_DARK_SKIN_TONE = '👋🏿';
+    const RAISED_BACK_OF_HAND = '🤚';
+    const RAISED_BACK_OF_HAND_LIGHT_SKIN_TONE = '🤚🏻';
+    const RAISED_BACK_OF_HAND_MEDIUM_LIGHT_SKIN_TONE = '🤚🏼';
+    const RAISED_BACK_OF_HAND_MEDIUM_SKIN_TONE = '🤚🏽';
+    const RAISED_BACK_OF_HAND_MEDIUM_DARK_SKIN_TONE = '🤚🏾';
+    const RAISED_BACK_OF_HAND_DARK_SKIN_TONE = '🤚🏿';
+    const HAND_WITH_FINGERS_SPLAYED = '🖐️';
+    const HAND_WITH_FINGERS_SPLAYED_LIGHT_SKIN_TONE = '🖐🏻';
+    const HAND_WITH_FINGERS_SPLAYED_MEDIUM_LIGHT_SKIN_TONE = '🖐🏼';
+    const HAND_WITH_FINGERS_SPLAYED_MEDIUM_SKIN_TONE = '🖐🏽';
+    const HAND_WITH_FINGERS_SPLAYED_MEDIUM_DARK_SKIN_TONE = '🖐🏾';
+    const HAND_WITH_FINGERS_SPLAYED_DARK_SKIN_TONE = '🖐🏿';
+    const RAISED_HAND = '✋';
+    const RAISED_HAND_LIGHT_SKIN_TONE = '✋🏻';
+    const RAISED_HAND_MEDIUM_LIGHT_SKIN_TONE = '✋🏼';
+    const RAISED_HAND_MEDIUM_SKIN_TONE = '✋🏽';
+    const RAISED_HAND_MEDIUM_DARK_SKIN_TONE = '✋🏾';
+    const RAISED_HAND_DARK_SKIN_TONE = '✋🏿';
+    const VULCAN_SALUTE = '🖖';
+    const VULCAN_SALUTE_LIGHT_SKIN_TONE = '🖖🏻';
+    const VULCAN_SALUTE_MEDIUM_LIGHT_SKIN_TONE = '🖖🏼';
+    const VULCAN_SALUTE_MEDIUM_SKIN_TONE = '🖖🏽';
+    const VULCAN_SALUTE_MEDIUM_DARK_SKIN_TONE = '🖖🏾';
+    const VULCAN_SALUTE_DARK_SKIN_TONE = '🖖🏿';
+    const RIGHTWARDS_HAND = '🫱';
+    const RIGHTWARDS_HAND_LIGHT_SKIN_TONE = '🫱🏻';
+    const RIGHTWARDS_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫱🏼';
+    const RIGHTWARDS_HAND_MEDIUM_SKIN_TONE = '🫱🏽';
+    const RIGHTWARDS_HAND_MEDIUM_DARK_SKIN_TONE = '🫱🏾';
+    const RIGHTWARDS_HAND_DARK_SKIN_TONE = '🫱🏿';
+    const LEFTWARDS_HAND = '🫲';
+    const LEFTWARDS_HAND_LIGHT_SKIN_TONE = '🫲🏻';
+    const LEFTWARDS_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫲🏼';
+    const LEFTWARDS_HAND_MEDIUM_SKIN_TONE = '🫲🏽';
+    const LEFTWARDS_HAND_MEDIUM_DARK_SKIN_TONE = '🫲🏾';
+    const LEFTWARDS_HAND_DARK_SKIN_TONE = '🫲🏿';
+    const PALM_DOWN_HAND = '🫳';
+    const PALM_DOWN_HAND_LIGHT_SKIN_TONE = '🫳🏻';
+    const PALM_DOWN_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫳🏼';
+    const PALM_DOWN_HAND_MEDIUM_SKIN_TONE = '🫳🏽';
+    const PALM_DOWN_HAND_MEDIUM_DARK_SKIN_TONE = '🫳🏾';
+    const PALM_DOWN_HAND_DARK_SKIN_TONE = '🫳🏿';
+    const PALM_UP_HAND = '🫴';
+    const PALM_UP_HAND_LIGHT_SKIN_TONE = '🫴🏻';
+    const PALM_UP_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫴🏼';
+    const PALM_UP_HAND_MEDIUM_SKIN_TONE = '🫴🏽';
+    const PALM_UP_HAND_MEDIUM_DARK_SKIN_TONE = '🫴🏾';
+    const PALM_UP_HAND_DARK_SKIN_TONE = '🫴🏿';
+    const LEFTWARDS_PUSHING_HAND = '🫷';
+    const LEFTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE = '🫷🏻';
+    const LEFTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫷🏼';
+    const LEFTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE = '🫷🏽';
+    const LEFTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE = '🫷🏾';
+    const LEFTWARDS_PUSHING_HAND_DARK_SKIN_TONE = '🫷🏿';
+    const RIGHTWARDS_PUSHING_HAND = '🫸';
+    const RIGHTWARDS_PUSHING_HAND_LIGHT_SKIN_TONE = '🫸🏻';
+    const RIGHTWARDS_PUSHING_HAND_MEDIUM_LIGHT_SKIN_TONE = '🫸🏼';
+    const RIGHTWARDS_PUSHING_HAND_MEDIUM_SKIN_TONE = '🫸🏽';
+    const RIGHTWARDS_PUSHING_HAND_MEDIUM_DARK_SKIN_TONE = '🫸🏾';
+    const RIGHTWARDS_PUSHING_HAND_DARK_SKIN_TONE = '🫸🏿';
+}

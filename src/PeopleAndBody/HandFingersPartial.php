@@ -1,0 +1,61 @@
+<?php
+
+namespace BondarDe\Emoji\PeopleAndBody;
+
+class HandFingersPartial
+{
+    const OK_HAND = '👌';
+    const OK_HAND_LIGHT_SKIN_TONE = '👌🏻';
+    const OK_HAND_MEDIUM_LIGHT_SKIN_TONE = '👌🏼';
+    const OK_HAND_MEDIUM_SKIN_TONE = '👌🏽';
+    const OK_HAND_MEDIUM_DARK_SKIN_TONE = '👌🏾';
+    const OK_HAND_DARK_SKIN_TONE = '👌🏿';
+    const PINCHED_FINGERS = '🤌';
+    const PINCHED_FINGERS_LIGHT_SKIN_TONE = '🤌🏻';
+    const PINCHED_FINGERS_MEDIUM_LIGHT_SKIN_TONE = '🤌🏼';
+    const PINCHED_FINGERS_MEDIUM_SKIN_TONE = '🤌🏽';
+    const PINCHED_FINGERS_MEDIUM_DARK_SKIN_TONE = '🤌🏾';
+    const PINCHED_FINGERS_DARK_SKIN_TONE = '🤌🏿';
+    const PINCHING_HAND = '🤏';
+    const PINCHING_HAND_LIGHT_SKIN_TONE = '🤏🏻';
+    const PINCHING_HAND_MEDIUM_LIGHT_SKIN_TONE = '🤏🏼';
+    const PINCHING_HAND_MEDIUM_SKIN_TONE = '🤏🏽';
+    const PINCHING_HAND_MEDIUM_DARK_SKIN_TONE = '🤏🏾';
+    const PINCHING_HAND_DARK_SKIN_TONE = '🤏🏿';
+    const VICTORY_HAND = '✌️';
+    const VICTORY_HAND_LIGHT_SKIN_TONE = '✌🏻';
+    const VICTORY_HAND_MEDIUM_LIGHT_SKIN_TONE = '✌🏼';
+    const VICTORY_HAND_MEDIUM_SKIN_TONE = '✌🏽';
+    const VICTORY_HAND_MEDIUM_DARK_SKIN_TONE = '✌🏾';
+    const VICTORY_HAND_DARK_SKIN_TONE = '✌🏿';
+    const CROSSED_FINGERS = '🤞';
+    const CROSSED_FINGERS_LIGHT_SKIN_TONE = '🤞🏻';
+    const CROSSED_FINGERS_MEDIUM_LIGHT_SKIN_TONE = '🤞🏼';
+    const CROSSED_FINGERS_MEDIUM_SKIN_TONE = '🤞🏽';
+    const CROSSED_FINGERS_MEDIUM_DARK_SKIN_TONE = '🤞🏾';
+    const CROSSED_FINGERS_DARK_SKIN_TONE = '🤞🏿';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED = '🫰';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_LIGHT_SKIN_TONE = '🫰🏻';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_LIGHT_SKIN_TONE = '🫰🏼';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_SKIN_TONE = '🫰🏽';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_MEDIUM_DARK_SKIN_TONE = '🫰🏾';
+    const HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED_DARK_SKIN_TONE = '🫰🏿';
+    const LOVE_YOU_GESTURE = '🤟';
+    const LOVE_YOU_GESTURE_LIGHT_SKIN_TONE = '🤟🏻';
+    const LOVE_YOU_GESTURE_MEDIUM_LIGHT_SKIN_TONE = '🤟🏼';
+    const LOVE_YOU_GESTURE_MEDIUM_SKIN_TONE = '🤟🏽';
+    const LOVE_YOU_GESTURE_MEDIUM_DARK_SKIN_TONE = '🤟🏾';
+    const LOVE_YOU_GESTURE_DARK_SKIN_TONE = '🤟🏿';
+    const SIGN_OF_THE_HORNS = '🤘';
+    const SIGN_OF_THE_HORNS_LIGHT_SKIN_TONE = '🤘🏻';
+    const SIGN_OF_THE_HORNS_MEDIUM_LIGHT_SKIN_TONE = '🤘🏼';
+    const SIGN_OF_THE_HORNS_MEDIUM_SKIN_TONE = '🤘🏽';
+    const SIGN_OF_THE_HORNS_MEDIUM_DARK_SKIN_TONE = '🤘🏾';
+    const SIGN_OF_THE_HORNS_DARK_SKIN_TONE = '🤘🏿';
+    const CALL_ME_HAND = '🤙';
+    const CALL_ME_HAND_LIGHT_SKIN_TONE = '🤙🏻';
+    const CALL_ME_HAND_MEDIUM_LIGHT_SKIN_TONE = '🤙🏼';
+    const CALL_ME_HAND_MEDIUM_SKIN_TONE = '🤙🏽';
+    const CALL_ME_HAND_MEDIUM_DARK_SKIN_TONE = '🤙🏾';
+    const CALL_ME_HAND_DARK_SKIN_TONE = '🤙🏿';
+}
